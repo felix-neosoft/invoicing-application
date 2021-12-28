@@ -1,0 +1,29 @@
+/* ------------Register and Login Page CSS -------------- */
+.index-wall{
+  background-image: linear-gradient(to bottom, #432471, #42307d, #413c89, #3f4794, #3c529f, #2c5ca4, #1965a7, #006da9, #0074a0, #007891, #007a7d, #0e7a68);
+  height: 721px;
+}
+
+/* ----------Setting Page CSS------------------------ */
+.file-input{
+  margin-left: 13%;
+}
+
+.file-input label{
+  display: block;
+  margin: 5px 0px;
+}
+
+
+.file-input input[type=file]::file-selector-button {
+  border: none;
+  background-color: #007891;
+  color: white;
+  padding: 7px 9px;
+  border-radius: 5px;
+}
+
+.file-input input[type=file]::file-selector-button:hover {
+  background-color: rgb(41, 194, 48);
+}
+
